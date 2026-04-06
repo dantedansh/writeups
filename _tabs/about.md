@@ -4,5 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
+
+En esta web subiré Posts sobre informes de resolución de Maquinas (Writeups) en Hack The box o plataformas del estilo.
+
+![](/assets/images/hole.jpg)
