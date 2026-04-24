@@ -16,7 +16,7 @@ timezone: America/Denver
 
 title: DanNullty # the main title
 
-tagline: Writeups principalmente sobre HackTheBox. <br> CTF Player <br> cybersecurity enthusiast. # it will display as the subtitle
+tagline: Writeups principalmente sobre HackTheBox. <br> <br> CTF Player <br> Cybersecurity enthusiast. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Writeups sobre maquinas de la plataforma HackTheBox.
