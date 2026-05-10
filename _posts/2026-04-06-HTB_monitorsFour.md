@@ -1,9 +1,9 @@
 ---
 title: Monitors Four - Hack The Box
 date: 2026-04-06
-categories: [HackTheBox,Lab]
-tags: [windows,easy,enumeration,fuzzing,IDOR,RCE,Docker,webshell]     # TAG names should always be lowercase
-description: En este post resolveremos la maquina MonitorsFour de la plataforma Hack The Box, dónde encontraremos temas como: Fuzzing, IDOR, RCE, Docker-wsl, etc.
+categories: [HackTheBox, Lab]
+tags: [windows, easy, enumeration, fuzzing, idor, rce, docker, webshell]
+description: En este post resolveremos la maquina MonitorsFour de la plataforma Hack The Box, dónde encontraremos temas como Fuzzing, IDOR, RCE, Docker-wsl, etc.
 image:
   path: /assets/images/HTB/MonitorsFour/monitorsfour.png
 ---
