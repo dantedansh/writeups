@@ -2,8 +2,8 @@
 title: Monitors Four - Hack The Box
 date: 2026-04-06
 categories: [HackTheBox,Lab]
-tags: [windows,easy,enumeration]     # TAG names should always be lowercase
-description: Descripción pendiente...
+tags: [windows,easy,enumeration,fuzzing,IDOR,RCE,Docker,webshell]     # TAG names should always be lowercase
+description: En este post resolveremos la maquina MonitorsFour de la plataforma Hack The Box, dónde encontraremos temas como: Fuzzing, IDOR, RCE, Docker-wsl, etc.
 image:
   path: /assets/images/HTB/MonitorsFour/monitorsfour.png
 ---
@@ -398,3 +398,9 @@ IDOR: Se debe sanitizar la entrada de datos en las peticiones, de ser posible ca
 **Docker WSL2**: Establecer medidas de seguridad (Contraseñas y permisos de archivos), para evitar la comunicación directa con la API de docker y así evitar escalar privilegios dentro del contenedor.
 
 > Sugerencia: Usar contraseñas más seguras y cambiar las peticiones GET en la web principal por POST.
+
+
+He creado un Script que automatiza la parte para obtener la webshell:
+
+
+[CVE-2025-24367-Cacti-Exploit](https://github.com/dantedansh/CVE-2025-24367-Cacti-Exploit)
